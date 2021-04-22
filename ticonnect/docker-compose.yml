@@ -1,0 +1,13 @@
+ersion: "3"
+
+services:
+  app:
+    build: .
+    image: linktree-image
+    container_name: linktree
+    ports: 
+      - "3030:3030"
+    restart: always
+    volumes:
+      - .:/usr/app
+    stdin_open: true
