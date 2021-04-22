@@ -27,8 +27,7 @@ body {
 
 .logo {
     position: absolute;
-
-    top: 25%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 140px;
@@ -70,13 +69,24 @@ ul {
 button {
      margin-bottom: 6px;
      width: 250px;
-     height: 28px;
+     height: 27px;
      background-image: linear-gradient(to bottom, #fb8741, #e06215 100%);
      color: white;
      border: none;
      cursor: pointer;
 }
 
+@media ( max-height: 560px)  {
+    .logo {
+        top: 18%;
+    }
+    
+.container{
+    top: 63%;
+}
+}
+
+/* desktop */
 @media ( min-width: 800px ) {
     body {
         background-image: url('./images/fundo_2.png');
