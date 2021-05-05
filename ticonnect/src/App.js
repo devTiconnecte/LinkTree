@@ -22,7 +22,7 @@ function App() {
   return (
     <div>
       <div className="container">
-      <img className="logo" src={logoTI2} />
+        <img className="logo" src={logoTI2} />
         <ul>
           <li>
             <a href="https://ticonnecte.com.br/home/">
@@ -121,12 +121,12 @@ function App() {
           </div>
         </div>
 
-      </div>
-
-      <div className="rodape">
-        <img src={rodape} />
+        <div className="rodape">
+          <img src={rodape} />
+        </div>
       </div>
     </div>
+
   );
 }
 
