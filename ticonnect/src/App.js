@@ -10,6 +10,7 @@ import veloc from './images/Velocímetro.png'
 import sem_acesso from './images/sem_acesso.png'
 import instagram from './images/Instagram.png'
 import facebook from './images/Facebook.png'
+import curso from './images/curso.png'
 
 import rodape from './images/rodapé.png'
 import './App.css';
@@ -20,7 +21,6 @@ function App() {
       <img className="logo" src={logoTI} />
       <div className="container">
         <ul>
-          
           <li>
             <a href="https://ticonnecte.com.br/home/">
               <button type="button">
@@ -30,7 +30,7 @@ function App() {
           </li>
 
           <li>
-            <a href="https://api.whatsapp.com/send?phone=5581996744046">
+            <a href="https://api.whatsapp.com/send?phone=5581996744046&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20link%20e%20gostaria%20de%20algumas%20informa%C3%A7%C3%B5es">
               <button type="button">
                 <img src={whatsApp} /> Fale pelo WhatsApp
               </button>
@@ -93,7 +93,13 @@ function App() {
             </a>
           </li>
 
-
+          <li>
+            <a href="https://app.qualifica.mobi/#/sign-in/partners/5874">
+              <button type="button">
+                <img src={curso} /> Cursos TI Connect
+              </button>
+            </a>
+          </li>
         </ul>
       </div>
 
