@@ -21,8 +21,8 @@ import './App.css';
 function App() {
   return (
     <div>
-      <img className="logo" src={logoTI2} />
       <div className="container">
+      <img className="logo" src={logoTI2} />
         <ul>
           <li>
             <a href="https://ticonnecte.com.br/home/">

@@ -18,7 +18,7 @@ body {
 .container{
     position: absolute;
     width: 100%;
-    top: 52%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -28,10 +28,7 @@ body {
 }
 
 .logo {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-bottom: 5%;
     width: 160px;
     height: auto;
 }
