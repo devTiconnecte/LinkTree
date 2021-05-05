@@ -1,5 +1,6 @@
 import React from 'react'
-import logoTI from './images/logo.png'
+// import logoTI from './images/logo.png'
+import logoTI2 from './images/Logo_preta.png'
 
 import site_icon from './images/site_icon.png'
 import whatsApp from './images/whats_icon.png'
@@ -11,6 +12,8 @@ import sem_acesso from './images/sem_acesso.png'
 import instagram from './images/Instagram.png'
 import facebook from './images/Facebook.png'
 import curso from './images/curso.png'
+import google_play from './images/google_play.png'
+import apple_store from './images/apple_store.png'
 
 import rodape from './images/rodapé.png'
 import './App.css';
@@ -18,7 +21,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <img className="logo" src={logoTI} />
+      <img className="logo" src={logoTI2} />
       <div className="container">
         <ul>
           <li>
@@ -101,6 +104,23 @@ function App() {
             </a>
           </li>
         </ul>
+
+        <div className="footer">
+          <div>
+            <h6>BAIXE NOSSO APP</h6>
+          </div>
+
+          <div className="footer-imgs">
+            <a href="https://play.google.com/store/apps/details?id=com.ticonnect.centralassinante" >
+              <img src={google_play} />
+            </a>
+
+            <a href="https://apps.apple.com/br/app/central-do-assinante-ticonnect/id1540757975">
+              <img src={apple_store} />
+            </a>
+          </div>
+        </div>
+
       </div>
 
       <div className="rodape">

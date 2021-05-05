@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* mobile first */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +18,7 @@ body {
 .container{
     position: absolute;
     width: 100%;
-    top: 60%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -27,11 +29,11 @@ body {
 
 .logo {
     position: absolute;
-    top: 20%;
+    top: 19%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 140px;
-    height: 140px;
+    width: 170px;
+    height: auto;
 }
 
 ul li img {
@@ -59,6 +61,28 @@ ul li img {
     object-fit: cover;
 }
 
+.footer {
+    margin-top: 5%;
+    width: 300px;
+}
+
+.footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h6 {
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.footer div img {
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+}
+
 ul {
     margin-block-start: 0;
     margin-block-end: 0;
@@ -68,8 +92,8 @@ ul {
 
 button {
      margin-bottom: 6px;
-     width: 250px;
-     height: 27px;
+     width: 300px;
+     height: 30px;
      background-image: linear-gradient(to bottom, #fb8741, #e06215 100%);
      color: white;
      border: none;
@@ -95,8 +119,10 @@ button {
 
     .logo {
         position: absolute;
+        width: 300px;
+        height: auto;
 
-        top: 18%;
+        top: 12%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -131,6 +157,10 @@ button {
         font-weight: bold;
         width: 530px;
         height: 45px;
+    }
+
+    .footer {
+        margin-top: 2%;
     }
     
 }
