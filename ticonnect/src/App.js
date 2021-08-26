@@ -7,6 +7,7 @@ import whatsApp from './images/whats_icon.png'
 import desbloqueio from './images/Desbloqueio.png'
 import fatura from './images/fatura.png'
 import cartao from './images/Cartão_crédito.png'
+import pix from './images/pix.svg'
 import veloc from './images/Velocímetro.png'
 import sem_acesso from './images/sem_acesso.png'
 import instagram from './images/Instagram.png'
@@ -14,6 +15,7 @@ import facebook from './images/Facebook.png'
 import curso from './images/curso.png'
 import google_play from './images/google_play.png'
 import apple_store from './images/apple_store.png'
+
 
 import rodape from './images/rodapé.png'
 import './App.css';
@@ -60,6 +62,14 @@ function App() {
             <a href="https://ticonnecte.com.br/usando-app/faq.html#pagamento-cartao-de-credito">
               <button type="button">
                 <img src={cartao} /> Pague com cartão de crédito
+              </button>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/reel/CSRSYVIg0yS/?utm_medium=copy_link">
+              <button type="button">
+                <img src={pix} style={{ marginRight: "-10%" }} /> Pague com PIX
               </button>
             </a>
           </li>
